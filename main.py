@@ -65,4 +65,34 @@ print("After swapping: x=", x, "y=", y)
 
 ###########################################################################
 
+def kmh_to_ms(speed_kmh):
+    speed_ms = speed_kmh * 1000 / 3600
+    return speed_ms
+
+speed_kmh = float(input("Enter speed in km/h: "))
+
+speed_ms = kmh_to_ms(speed_kmh)
+print(f"The speed in m/s is: {speed_ms:.2f} m/s")
+
+#############################################################################
+import math
+a = 5
+b = 8
+diagonal = math.sqrt(a**2 + b**2)
+print(f"The length of the diagonal is: {diagonal:.2f}")
+#################################################################################
+import math
+def distance_to_horizon(height):
+    distance = 3.57 * math.sqrt(height)
+    return distance
+height = float(input("Enter the height above the ground in meters: "))
+distance = distance_to_horizon(height)
+print(f"The distance to the horizon is: {distance:.2f} kilometers")
+beach_height = 1.7
+beach_distance = distance_to_horizon(beach_height)
+print(f"\nAt the beach (height {beach_height} m), the horizon is: {beach_distance:.2f} km away")
+hotel_height = 20
+hotel_distance = distance_to_horizon(hotel_height)
+print(f"From a hotel window at 20 m, the horizon is: {hotel_distance:.2f} km away")
+
 
