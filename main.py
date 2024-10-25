@@ -94,5 +94,35 @@ print(f"\nAt the beach (height {beach_height} m), the horizon is: {beach_distanc
 hotel_height = 20
 hotel_distance = distance_to_horizon(hotel_height)
 print(f"From a hotel window at 20 m, the horizon is: {hotel_distance:.2f} km away")
+##############################################################################################
 
+total_population = 8000000000  
+northern_population = 7200000000  
+southern_population = total_population - northern_population
+northern_percentage = (northern_population / total_population) * 100
+southern_percentage = (southern_population / total_population) * 100
+print(f"Population in the Northern Hemisphere: {northern_population} people")
+print(f"Percentage in the Northern Hemisphere: {northern_percentage:.2f}%")
+print(f"Population in the Southern Hemisphere: {southern_population} people")
+print(f"Percentage in the Southern Hemisphere: {southern_percentage:.2f}%")
+###############################################################################################
+###
+# A program that calculates and prints
+# the average grade of a student
+#
+mat = 5
+Art = 4
+muzic = 5
+history = 3
+average = mat + Art - muzic + history / 4
+print("Average grade is", average)
 
+####################################################################################################
+
+name = "Adam"
+age = 20  
+height = 175 
+
+print(f"My name is {name}.")
+print(f"I am {age} years old, and my height is {height} cm.")
+print(f"In 6 years I will be {age + 6} years old.")
