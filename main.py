@@ -106,10 +106,7 @@ print(f"Percentage in the Northern Hemisphere: {northern_percentage:.2f}%")
 print(f"Population in the Southern Hemisphere: {southern_population} people")
 print(f"Percentage in the Southern Hemisphere: {southern_percentage:.2f}%")
 ###############################################################################################
-###
-# A program that calculates and prints
-# the average grade of a student
-#
+
 mat = 5
 Art = 4
 muzic = 5
@@ -144,3 +141,9 @@ print(f'{a} - {b} = {a - b}')
 print(f'{a} * {b} = {a * b}')
 print(f'{a} / {b} = {a / b:.2f}')
 ##################################################################################################
+first_name = input('Enter your first name: ')
+last_name = input('Enter your last name: ')
+full_name = first_name + ' ' + last_name
+print(f'Your first name is {first_name} and your last name is {last_name}')
+print(f'And your full name is full_name')
+#################################################################
