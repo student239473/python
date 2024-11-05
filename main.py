@@ -154,3 +154,11 @@ cube_surface_area = 6 * (cube_side ** 2)
 print(f'The volume of a cube with side {cube_side} is {cube_volume}')
 print(f'The surface area of a cube with side {cube_side} is {cube_surface_area}')
 ##############################################################
+a = int(input('Enter the length of side a: '))
+b = int(input('Enter the length of side b: '))
+c = int(input('Enter the length of side c: '))
+cuboid_volume = a * b * c
+cuboid_surface_area = 2 * (a * b + a * c + b * c)
+print(f'The volume of a cuboid with sides {a}, {b}, and {c} is {cuboid_volume}')
+print(f'The surface area of a cuboid with sides {a}, {b}, and {c} is {cuboid_surface_area}')
+##########################################################
