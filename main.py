@@ -162,3 +162,13 @@ cuboid_surface_area = 2 * (a * b + a * c + b * c)
 print(f'The volume of a cuboid with sides {a}, {b}, and {c} is {cuboid_volume}')
 print(f'The surface area of a cuboid with sides {a}, {b}, and {c} is {cuboid_surface_area}')
 ##########################################################
+name = input('Enter your name: ')
+surname = input('Enter your surname: ')
+
+characters_in_name = len(name)
+characters_in_surname = len(surname)
+characters_in_full_name = len(name + ' ' + surname)
+
+print(f'Your name has {characters_in_name} characters')
+print(f'Your surname has {characters_in_surname} characters')
+print(f'Your full name has {characters_in_full_name} characters')
