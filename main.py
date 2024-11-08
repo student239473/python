@@ -172,3 +172,9 @@ characters_in_full_name = len(name + ' ' + surname)
 print(f'Your name has {characters_in_name} characters')
 print(f'Your surname has {characters_in_surname} characters')
 print(f'Your full name has {characters_in_full_name} characters')
+##############################################################
+university = "Krakow University of Economics"
+
+abbreviation = ''.join(word[0] for word in university.split())
+
+print(f'The abbreviation of "{university}" is {abbreviation}')
