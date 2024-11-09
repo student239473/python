@@ -178,3 +178,16 @@ university = "Krakow University of Economics"
 abbreviation = ''.join(word[0] for word in university.split())
 
 print(f'The abbreviation of "{university}" is {abbreviation}')
+##########################################################
+employee = "Mr. John May, born on 1998-02-16"
+
+name = employee[4:8]  
+surname = employee[9:12]  
+date_of_birth = employee[-10:]  
+
+initials = name[0] + surname[0]
+
+print(f'Name: {name}')
+print(f'Surname: {surname}')
+print(f'Born: {date_of_birth}')
+print(f'Initials: {initials}')
