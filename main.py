@@ -191,3 +191,11 @@ print(f'Name: {name}')
 print(f'Surname: {surname}')
 print(f'Born: {date_of_birth}')
 print(f'Initials: {initials}')
+##############################################################
+phone = input('Enter a 9-digit phone number: ')
+
+if len(phone) == 9 and phone.isdigit():
+    formatted_phone = f'{phone[:3]}-{phone[3:6]}-{phone[6:]}'
+    print(f'Formatted phone number: {formatted_phone}')
+else:
+    print('Please enter a valid 9-digit phone number.')
