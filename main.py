@@ -199,3 +199,28 @@ if len(phone) == 9 and phone.isdigit():
     print(f'Formatted phone number: {formatted_phone}')
 else:
     print('Please enter a valid 9-digit phone number.')
+    #####################################################################
+print(f'a: {ord("a")}')
+print(f'b: {ord("b")}')
+print(f'z: {ord("z")}')
+print(f'A: {ord("A")}')
+print(f'B: {ord("B")}')
+print(f'Z: {ord("Z")}')
+print(f'1: {ord("1")}')
+print(f'=: {ord("=")}')
+print(f'+: {ord("+")}')
+print(f'€: {ord("€")}')
+#####################################################################
+name = input('name:')
+
+
+print(f'The letter {name[0]} has a code {ord(name[0])}')
+print(f'The letter {name[1]} has a code {ord(name[1])}')
+print(f'The letter {name[2]} has a code {ord(name[2])}')
+print(f'The letter {name[3]} has a code {ord(name[3])}')
+#######################################################################
+
+letter1 = input('Enter the first letter: ').upper()
+letter2 = input('Enter the second letter: ').upper()
+difference = abs(ord(letter1) - ord(letter2)) - 1
+print(f'There are {difference} letters between {letter1} and {letter2}')
