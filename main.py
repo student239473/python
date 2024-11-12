@@ -224,3 +224,28 @@ letter1 = input('Enter the first letter: ').upper()
 letter2 = input('Enter the second letter: ').upper()
 difference = abs(ord(letter1) - ord(letter2)) - 1
 print(f'There are {difference} letters between {letter1} and {letter2}')
+###########################################################
+word = chr(67) + chr(111) + chr(111) + chr(108) + chr(33)
+print(word)
+########################################################
+import random
+
+dice_roll_1 = random.randint(1, 6)
+dice_roll_2 = random.randint(1, 6)
+dice_roll_3 = random.randint(1, 6)
+
+total = dice_roll_1 + dice_roll_2 + dice_roll_3
+
+print(f'Dice roll 1: {dice_roll_1}')
+print(f'Dice roll 2: {dice_roll_2}')
+print(f'Dice roll 3: {dice_roll_3}')
+print(f'Total sum of dice rolled: {total}')
+####################################################
+Practice makes perfect:
+
+###
+celsius = float(input('Enter temperature in Celsius: '))
+kelvin = celsius + 273.15
+fahrenheit = (celsius * 9/5) + 32
+print(f'Temperature in Kelvin: {kelvin:.2f} K')
+print(f'Temperature in Fahrenheit: {fahrenheit:.2f} °F')
