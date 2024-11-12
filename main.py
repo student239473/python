@@ -265,3 +265,12 @@ country_code = swift_code[4:6]
 print(f'Bank Code: {bank_code}')
 print(f'Country Code: {country_code}')
 ###############################################
+distance_km = float(input('Enter the distance in km: '))
+fuel_price_per_liter = float(input('Enter the fuel price per liter: '))
+fuel_consumption_per_100km = float(input('Enter the fuel consumption (liters per 100 km): '))
+fuel_needed = (distance_km / 100) * fuel_consumption_per_100km
+total_cost = fuel_needed * fuel_price_per_liter
+print(f'Total fuel needed: {fuel_needed:.2f} liters')
+print(f'Total cost of transportation: ${total_cost:.2f}')
+#####################################################
+
